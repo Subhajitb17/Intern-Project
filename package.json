@@ -17,10 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loksantosh/Project2-intern.git"
+    "url": "git+https://github.com/Subhajitb17/Intern-Project.git"
   },
   "bugs": {
-    "url": "https://github.com/loksantosh/Project2-intern/issues"
+    "url": "https://github.com/Subhajitb17/Intern-Project/issues"
   },
-  "homepage": "https://github.com/loksantosh/Project2-intern#readme"
+  "homepage": "https://github.com/Subhajitb17/Intern-Project#readme",
+  "devDependencies": {}
 }
