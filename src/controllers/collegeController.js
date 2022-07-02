@@ -32,7 +32,7 @@ const createCollege = async function (req, res) {
         }
 
         const SearchName = await collegeModel.findOne({ name: name })
-        if (SearchName) return res.status(400).send({ status: false, msg: "name must be unique" })
+        if (SearchName) return res.status(409).send({ status: false, msg: "name must be unique" })
 
         if (!fullName) return res.status(400).send({ status: false, message: 'fullname must be present' })
         if (!isValidation(fullName)) return res.status(400).send({ status: false, message: 'fullName should be valid' })
